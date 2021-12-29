@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<LandingPage />} />
+          <Route exact path='/Instaclone' element={<LandingPage />} />
         </Routes>
         <Routes>
           <Route path='/Postview' element={<Postview />} />
