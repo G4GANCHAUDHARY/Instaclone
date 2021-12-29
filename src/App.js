@@ -6,14 +6,12 @@ import Postview from './components/Postview/Postview';
 
 function App() {
   return (
-    <div className="App">
       <Router>
         <Switch>
           <Route  path='/' component={LandingPage } exact/>
           <Route path='/Postview' component={Postview } exact/>
         </Switch>
       </Router>
-    </div>
   );
 }
 
